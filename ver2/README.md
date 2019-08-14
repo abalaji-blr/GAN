@@ -1,10 +1,10 @@
 # CycleGAN for Faces Dataset
 
-Faces Dataset Location: <https://susanqq.github.io/UTKFace/>
+* Faces Dataset Location: <https://susanqq.github.io/UTKFace/>
 
-Original CycleGAN Implementation in PyTorch is available at <https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix>
+* Original CycleGAN Implementation in PyTorch is available at <https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix>
 
-
+* [My Keras Implementation](./CycleGAN_Faces_v2.ipynb)
 
 ### Discriminator
 
@@ -31,13 +31,21 @@ The Transformer uses residual blocks
 
 The Decoder expands the image with transpose Conv.
 
-Note: each layer will use LeakyReLU and InstanceNormalization
+Note: each layer will use **LeakyReLU and InstanceNormalization**
 
 #### Resnet block
 
 Original paper uses **reflection padding**. Let's use **same** padding for simplicity.
 
+### Some FAQs
 
+* What is Instance Normalization?
+
+* What is Reflection padding?
+
+  In the case of reflection padding, instead of zero values, the values obtained by the reflection of the image will be set. This will help in better texture identification.
+
+  
 
 ## Results
 
