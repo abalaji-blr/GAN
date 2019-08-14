@@ -45,6 +45,14 @@ Original paper uses **reflection padding**. Let's use **same** padding for simpl
 
 ### Young to Old
 
+![y2o](./group_images/y2o.png)
+
+
+
+#### Reconstructed images
+
+
+
 ![plot_19](./young_to_old/plot_19.png)
 
 ![plot_18](./young_to_old/plot_18.png)
@@ -52,6 +60,10 @@ Original paper uses **reflection padding**. Let's use **same** padding for simpl
 ![plot_15](./young_to_old/plot_15.png)
 
 ### Old to Young
+
+![o2y](./group_images/o2y.png)
+
+### Reconstructed Images
 
 ![plot_65](./old_to_young/plot_65.png)
 
